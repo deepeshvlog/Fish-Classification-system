@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>base</title>
+    </head>
+    
+    <body>
+        <style>
+            html,body{
+                height:100%;
+                width:100%;
+                background-image:url("https://media.istockphoto.com/id/185114155/photo/day-at-seaside.webp?b=1&s=170667a&w=0&k=20&c=Gg7iLmph93zwKOVHucESiX3qpMWueG_3Tmr9xLE-91g=");
+                background-postion:center;
+                background-size:cover;
+                background-repeat:no-repeat;
+                color:black;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                postion:absolute;
+                flex-direction:column;
+                gap:50px;
+            }
+            
+
+        </style>
+        
+            <h1>Welcome to model deployement</h1>
+
+            <form action="prediction" method="POST" enctype="multipart/form-data">
+                <input type="file" name="img">
+                <input type="submit" name="btn">
+            </form>
+    
+    
+    </body>
+    </html>
